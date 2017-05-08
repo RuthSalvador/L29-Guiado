@@ -39,19 +39,50 @@
 
 .col-4 {
   width: 33.333333%;
-  height: 400px;
 }
 
 .col-5 {
   width: 41.666667%;
 }
 
+.col-6 {
+  width: 50%;
+}
+
+.col-8 {
+  width: 66.666667%;
+}
+
+.col-12 {
+  width: 100%;
+}
+
+/**Alturas y float**/
+.h-400 {
+  height: 400px;
+}
+
+.h-800 {
+  height: 800px;
+}
+
+.right {
+  float: right;
+}
+
+.left {
+  float: left;
+}
+
+/**colores y bordes**/
 .gray {
   background-color: #77787c;
-  border: 1px #ffffff solid;
 }
 
 .silver {
   background-color: #dcdddf;
-  border: 1px #ffffff solid;
+}
+
+.border {
+  border: 6px #ffffff solid;
 }
